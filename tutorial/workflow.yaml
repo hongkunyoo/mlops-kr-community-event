@@ -1,0 +1,10 @@
+name: my-first-wf
+
+jobs:
+- echo hello
+- echo world
+- echo again
+
+dags:
+- 1 >> 2
+- 1 >> 3
